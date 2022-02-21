@@ -26,7 +26,7 @@
 
 ## 监听
 
-在 `package.json` 中添加
+安装 `nodemon`，并在 `package.json` 中添加
 
 ```json
 "dev": "nodemon --watch src/ -e ts --exec ts-node ./src/app.ts"
